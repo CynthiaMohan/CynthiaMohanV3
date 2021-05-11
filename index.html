@@ -19,17 +19,17 @@
         <div class="glass">
             <div class="dashboard">
                 <div class="me">
-                    <img class="rounded-circle profilePic" src="./assets/images/profile pic.jpg"
+                    <img class="img-fluid rounded-circle profilePic" src="./assets/images/profile pic.jpg"
                         alt="Profile Picture of Cynthia" class="mb-2">
                     <h3 class="mt-2">Cynthia M.</h3>
                 </div>
                 <div class="links">
-                    <div class="link">
+                    <div class="link" id="linkAboutMe">
                         <h2>
                             <a href="#aboutMe">About Me</a>
                         </h2>
                     </div>
-                    <div class="link">
+                    <div class="link" id="linkWork">
                         <h2>
                             <a href="#work">Work</a>
                         </h2>
@@ -53,7 +53,7 @@
                         a team. I focus on writing clean and efficient code.
                         I love Photography, watching Netflix and spending time with my family.</p>
                 </div>
-                <div class="section" id="work">
+                <div class="section hidden" id="work">
                     <h2>Work</h2>
                     <div class="container">
                         <div class="row">
@@ -102,21 +102,30 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section" id="contactMe">
-                        <h2>Contact Me</h2>
-                        <div class="list">
-                            <ul>
-                                <li><a href="tel:+2678442523"><i class="fas fa-mobile-alt"></i></a>
-                                </li>
-                                <li><a href="mailto:cynthiamohan1@gmail.com"><i class="fas fa-envelope"></i></a></li>
-                                <li><a href="https://github.com/CynthiaMohan"><i class="fab fa-github-alt"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/cynthia-mohan"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="section" id="contactMe">
+                    <h2>Contact Me</h2>
+                    <div class="list">
+                        <ul>
+                            <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="+1-(267)-844-2523">
+                                <a href="tel:+2678442523">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </a>
+                            </li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="cynthiamohan1@gmail.com">
+                                <a href="mailto:cynthiamohan1@gmail.com"><i class="fas fa-envelope"></i></a>
+                            </li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="github"><a
+                                    href="https://github.com/CynthiaMohan"><i class="fab fa-github-alt"></i></a>
+                            </li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="linkedin"><a
+                                    href="https://www.linkedin.com/in/cynthia-mohan"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
             <div class="circle1 fluid"></div>
             <div class="circle2"></div>
