@@ -35,7 +35,7 @@ main{
         position: absolute;
         border-radius: 50%;
         z-index: -5;
-        animation: animate 10s linear infinite;
+        animation: animate 15s linear infinite;
         animation-delay: calc(-1s*var(--i));
 }
 .circle1{
@@ -51,14 +51,14 @@ main{
     width: 20rem;
 }
 .circle3{
-    bottom:-5%;
-    right:20%;
+    bottom:0%;
+    right:-10%;
     z-index: -1;
     height:5rem;
     width: 5rem;
 }
 .circle4{
-   top: -10%;
+   top: 0%;
     left:40%;
     z-index: -1;
     height:7rem;
@@ -68,11 +68,9 @@ main{
     0%,100%,
     0%{
         transform: translateY(-40px);
-      
     }
     50%{
         transform: translateY(40px);
-     
     }
 }
 
@@ -83,13 +81,13 @@ main{
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-  
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
     border-radius: 1rem;
+    height: 100vh;
 }
-.me img{
+/* .me img{
     width:50%;
-}
+} */
 .links{
     align-items: center;
 }
@@ -171,6 +169,7 @@ main{
 footer{
     font-size: 10px;
 }
+/* ===================================================================================================== */
 @media all and (min-width:768px) {
     .tile-icon{
         display:none;
