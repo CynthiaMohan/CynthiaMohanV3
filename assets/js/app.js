@@ -2,7 +2,7 @@ const about = document.querySelector('#aboutMe');
 const work = document.querySelector('#work');
 const linkAboutMe = document.querySelector('#linkAboutMe');
 const linkWork = document.querySelector('#linkWork');
-
+const tile = document.querySelector('.tile');
 
 linkAboutMe.addEventListener('click', () => {
     if (about) {
@@ -16,3 +16,4 @@ linkWork.addEventListener('click', () => {
         work.classList.remove("hidden");
     }
 });
+
