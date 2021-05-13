@@ -16,3 +16,9 @@ linkWork.addEventListener('click', () => {
         work.classList.remove("hidden");
     }
 });
+
+const mediaQuery = window.matchMedia('(min-width: 411px)');
+if (mediaQuery.matches) {
+    about.classList.remove("hidden");
+    work.classList.remove("hidden");
+}
