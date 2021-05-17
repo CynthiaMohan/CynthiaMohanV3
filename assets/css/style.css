@@ -267,6 +267,7 @@ footer{
       padding-top: 20px;
   }
     #projects{
+        margin-top: 150px;
         display: flex;
         flex-direction: column;
     }
